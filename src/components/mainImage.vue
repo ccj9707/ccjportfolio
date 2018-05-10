@@ -4,7 +4,8 @@
       <h1>CCJ Portfolio</h1>
       <h3>SELF-INTRODUCTION & DEVELOPMENT</h3>
       <h2>안녕하세요! 프론트엔드 개발자 최창진입니다.</h2>
-      <buttonScrollTo></buttonScrollTo>
+      <h2>이 사이트는 Vue.js로 개발되었으며, CSS Library를 사용하지 않았습니다.</h2>
+      <buttonScrollTo v-scroll-reveal></buttonScrollTo>
     </div>
   </div>
 </template>

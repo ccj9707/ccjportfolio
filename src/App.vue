@@ -18,7 +18,7 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: 'Spoqa Han Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Nanum Gothic', Helvetica, Arial, sans-serif;
   color:black;
 }
 

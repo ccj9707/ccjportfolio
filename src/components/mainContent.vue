@@ -1,17 +1,17 @@
 <template>
   <div id="contentId">
     <div id="contentList">
-      <div>
+      <div v-scroll-reveal>
         <router-link :to="{name: 'profile'}"><button class="button_design">profile</button></router-link>
       </div>
-      <div>
+      <div v-scroll-reveal>
         <router-link :to="{name: 'about'}"><button class="button_design">about</button></router-link>
       </div>
-      <div>
-        <router-link v-bind:to="{name:'portfolio'}"><button class="button_design">portfolio</button></router-link>
-      </div>
-      <div>
+      <div v-scroll-reveal>
         <router-link v-bind:to="{name:'introduction'}"><button class="button_design">SELF-INTRODUCTION</button></router-link>
+      </div>
+      <div v-scroll-reveal>
+        <router-link v-bind:to="{name:'portfolio'}"><button class="button_design">portfolio</button></router-link>
       </div>
     </div>
     <div id="contentMain">
@@ -33,15 +33,16 @@
     height:100vh;
   }
   #contentList{
-    width:15%;
-    float:left;
+    width:17%;
     text-align:right;
     padding:1%;
     background-color:rgb(48,56,66);
     height:100%;
+    float:left;
   }
   #contentMain{
-    width:85%;
+    width:83%;
+    margin-left:18%;
   }
   .button_design {
     background-color: #c47135;
@@ -49,10 +50,9 @@
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
-    font-size: 1em;
-    font-size: 22px;
+    font-size: 1.4rem;
     line-height: 1em;
-    margin: 0% 0% 6% 0%;
+    margin: 0% 0% 10% 0%;
     outline: none;
     padding: 12px 40px 10px;
     position: relative;
